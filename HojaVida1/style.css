@@ -1,0 +1,100 @@
+body{
+	background-image: url(http://1.bp.blogspot.com/_VTm0vNo0iKE/SRRMVlP8VxI/AAAAAAAAAAU/wXyZfDFqcds/s400/Fondo+hoja+de+Vida+Orlando.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+p, li{
+	font-size: 24px;
+	font-family: "Times New Roman", Times, serif;
+}
+table,th ,td {
+	padding: 15px;
+	border: 1px solid black;
+	border-collapse: collapse;
+	font-size: 24px;
+	font-family: sans-serif, serif;
+}
+
+h1{
+	color: red;
+	text-align: center;
+}
+
+nav{
+	height: 80%;
+	width: 20%;
+	background-color: orange;
+	position: fixed;
+}
+
+img{
+	width: 50%;
+	margin-left: auto;
+ 	 margin-right: auto;
+	margin: 10px 0 0 70px;
+}
+h2{
+	margin-top: 18px;
+	text-align: center;
+	color: black;
+	-webkit-text-stroke: 0.5px white;
+	margin-left: 0.4px;
+}
+
+a{
+	text-decoration:none;
+}
+#lista{
+	display:inline;
+	font-style: 12px;
+	font-family: "Times New Roman", Times, serif;
+	list-style: none;
+
+}
+
+#lista > li{
+	padding-bottom: 12px;
+	background-color: rgba(249, 249, 249, 0.6);
+	text-align: center;
+}
+
+article{
+	margin-left: 310px;
+}
+
+#Fecha{
+	/*border: 2px solid blue;*/
+	background-color: rgba(249, 249, 249, 0.7);
+}
+
+#Soy{
+	/*border: 2px solid blue;*/
+	background-color: rgba(249, 249, 249, 0.7);
+}
+
+#Carrera{
+	/*border: 2px solid blue;*/
+	background-color: rgba(249, 249, 249, 0.7);
+}
+
+#Pelicula{
+	/*border: 2px solid blue;*/
+	background-color: rgba(249, 249, 249, 0.7);
+}
+
+#Canciones{
+	/*border: 2px solid blue;*/
+	background-color: rgba(249, 249, 249, 0.7);
+}
+
+#Materia{
+	/*border: 2px solid blue;*/
+	background-color: rgba(249, 249, 249, 0.7);
+}
+
+@media screen and (max-width:500px){
+	body > h1{
+		color: blue;
+	}
+}
